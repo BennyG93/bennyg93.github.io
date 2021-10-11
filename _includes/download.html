@@ -1,0 +1,12 @@
+<div class="remove-container container-block">
+  <h2 class="container-block-title">
+    Download Resume
+  </h2>
+  <ul class="list-unstyled interests-list">
+    {% if sidebar.pdf %}
+    <li class="pdf"><i class="fas fa-file-pdf"></i>
+      <a href="{{ sidebar.download.pdf }}" target="_blank">Resume PDF</a>
+    </li>
+    {% endif %}
+  </ul>
+</div><!--//About-->
